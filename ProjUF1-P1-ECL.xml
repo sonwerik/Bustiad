@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE cine SYSTEM "C:\Users\sonwerik\WebstormProjects\Proj1-P2-ecl\ProjUF1-P1-ECL.dtd">
+<cine>
+    <filmmakers>
+        <filmmaker id="scorsese">
+            <name>Martin Luciano</name>
+            <lastname>Scorsese</lastname>
+            <movies id="killersoftheflowermoon"/>
+            <bornYear>1942</bornYear>
+            <bestAward>Oscar Best Director</bestAward>
+        </filmmaker>
+        <filmmaker id="tarantino">
+            <name>Quentin Jerome</name>
+            <lastname>Tarantino</lastname>
+            <movies id="django"/>
+            <bornYear>1963</bornYear>
+            <bestAward>Oscar Best Director</bestAward>
+        </filmmaker>
+        <filmmaker id="coppola">
+            <name>Francis Ford</name>
+            <lastname>Coppola</lastname>
+            <movies id="godfather"/>
+            <bornYear>1939</bornYear>
+            <bestAward>Oscar Best Movie</bestAward>
+        </filmmaker>
+        <filmmaker id="hitchcock">
+            <name>Alfred</name>
+            <lastname>Hitchcock</lastname>
+            <movies id="psycho"/>
+            <bornYear>1899</bornYear>
+            <bestAward>AFI Life Achievement Award</bestAward>
+        </filmmaker>
+        <filmmaker id="kubrick">
+            <name>Stanley</name>
+            <lastname>Kubrick</lastname>
+            <movies id="eyeswideshut"/>
+            <bornYear>1928</bornYear>
+            <bestAward>BAFTA Best Movie</bestAward>
+        </filmmaker>
+    </filmmakers>
+    <films>
+        <film
+                id="killersoftheflowermoon"
+                img="https://bit.ly/3sguJ2Y">
+            <title>Killers of the Flower Moon</title>
+            <director id="scorsese"/>
+            <year>2023</year>
+            <actors>Leonardo Di Caprio</actors>
+            <actors>Robert de Niro</actors>
+        </film>
+        <film
+                id="django"
+                img="https://bit.ly/3sj8Z6z">
+            <title>Django Unchained</title>
+            <director id="tarantino"/>
+            <year>2012</year>
+            <actors>Jaime Foxx</actors>
+            <actors>Christopher Waltz</actors>
+            <actors>Leonardo DiCaprio</actors>
+        </film>
+        <film
+                id="godfather"
+                img="https://bit.ly/40nosiC">
+            <title>The Godfather</title>
+            <director id="coppola"/>
+            <year>1972</year>
+            <actors>Al Pacino</actors>
+            <actors>Marlon Brando</actors>
+        </film>
+        <film
+                id="psycho"
+                img="https://bit.ly/3u5kW0s">
+            <title>Psycho</title>
+            <director id="hitchcock"/>
+            <year>1960</year>
+            <actors>Anthony Perkins</actors>
+            <actors>Janet Leigh</actors>
+        </film>
+        <film
+                id="eyeswideshut"
+                img="https://bit.ly/3QL1u1S">
+            <title>Eyes Wide Shut</title>
+            <director id="kubrick"/>
+            <year>1999</year>
+            <actors>Tom Cruise</actors>
+            <actors>Nicole Kidman</actors>
+        </film>
+    </films>
+</cine>
