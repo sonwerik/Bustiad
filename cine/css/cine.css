@@ -97,10 +97,36 @@ body {
     font-size: 20px;
     font-family: "cine", sans-serif;
 }
+.backgrounddjango {
+    background-image: url('../img/DjangoUnchainedWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundkillers {
+    background-image: url('../img/KillersOfTheFlowerMoonWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundgodfather {
+    background-image: url('../img/TheGodfatherWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundpsycho {
+    background-image: url('../img/PsychoWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundeyes {
+    background-image: url('../img/EyesWideShutWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .pelisubtitol {
+    transform: translate;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 70px;
 }
 .pelisubtitol a:link, a:visited {
@@ -122,6 +148,9 @@ body {
 }
 .resum {
     width: 470px;
+}
+.actors {
+    font-size: inherit;
 }
 .formulari {
     display: flex;
