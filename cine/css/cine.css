@@ -1,12 +1,12 @@
 @font-face {
     font-family: "cine";
-    src: url("C:\Users\sonwerik\WebstormProjects\Llenguatge de Marques\Proj1-P2-ECL\cine\font\Nunito\Nunito-VariableFont_wght.ttf");
+    src: url("../font/Nunito/Nunito-VariableFont_wght.ttf");
 }
 body {
     background-color: #2a373f;
     color: white;
     margin: 0;
-    font-family: Corbel;
+    font-family: Corbel, serif;
 }
 .titol {
     font-size: 30px;
@@ -75,7 +75,7 @@ body {
     text-decoration: none;
 }
 .llistapelis a:hover,.llistadirectors a:hover {
-    color: #4eefd0;
+    color: #ffffff;
 }
 .llistapelis img, .llistadirectors img {
     height: 340px;
