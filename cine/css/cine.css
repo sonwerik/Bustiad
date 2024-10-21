@@ -155,7 +155,7 @@ body {
 
 
 
-/*Pelicules*/
+/*Pelicules I Directors*/
 
 /*Imatge de fons*/
 .background-django {
@@ -184,7 +184,7 @@ body {
     background-size: cover;
 }
 
-/*Titol de la pelicula */
+/*Titol de la pelicula*/
 .titol-peli {
     text-align: center;
     margin-bottom: 75px;
@@ -203,7 +203,7 @@ body {
 .pelis-info a:hover {
     color: #ffffff;
 }
-.pelis-info img {
+.pelis-info  img {
     grid-column: 1;
     height: 340px;
     width: 230px;
@@ -243,8 +243,8 @@ body {
 /*Detalls de la pelicula*/
 .detalls {
     grid-column: 1;
-    margin-top: -200px;
-    margin-left: 200px;
+    margin-top: -150px;
+    margin-left: 205px;
 }
 .detalls a:link, a:visited {
     background-color: #3f4d5a;
@@ -254,4 +254,51 @@ body {
 }
 .detalls a:hover {
     color: white;
+}
+
+
+
+/*Directors*/
+
+/*Nom del director*/
+.titol-director {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*Informacio sobre directors*/
+.directors-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/*Pelicules que ha fet el director disponibles a la web*/
+.pelis-disponibles {
+    grid-column: 1;
+    margin-left: 200px;
+}
+.pelis-disponibles img {
+    height: 200px;
+    width: 140px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.director-img {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+.director-img img {
+    height: 340px;
+    width: 230px;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+.director-info {
+    grid-column: 1 / span 2;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
 }
